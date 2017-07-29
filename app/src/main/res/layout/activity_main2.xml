@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imagenLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Visan"
+        android:elevation="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/visan"
+        tools:ignore="HardcodedText,InefficientWeight,UnusedAttribute" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        tools:ignore="UselessLeaf,UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccione Sexo"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/imageButtonVaron"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_weight="0.18"
+            android:src="@drawable/visan1"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <ImageButton
+            android:id="@+id/imageButtonMujer"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_weight="0.15"
+            android:src="@drawable/visan1"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam"
+            android:layout_alignTop="@+id/imageButtonVaron"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Visan</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_apellido">Apellidos</string>
+    <string name="hint_dni">dni</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_register">Registrar</string>
+    <string name="btn_link_to_register">¿No es un miembro? Regístrese.</string>
+    <string name="btn_link_to_login">Ya está registrado!</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="btn_logout">Salir</string>
+    <string name="name">Nombre completo</string>
+
+</resources>

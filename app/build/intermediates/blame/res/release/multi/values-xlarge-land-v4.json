@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\ivanm\\Downloads\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\ivanm\\.android\\build-cache\\d250a6ddfe37182e81594b2769c7c606cea2f68c\\output\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 237,
+                        "endColumn": 63,
+                        "endOffset": 296
+                    }
+                }
+            }
+        ]
+    }
+]

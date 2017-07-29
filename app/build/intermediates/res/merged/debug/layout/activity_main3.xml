@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    <ImageView
+        android:id="@+id/imagenLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Visan"
+        android:elevation="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/visan"
+        tools:ignore="HardcodedText,InefficientWeight"
+        tools:targetApi="lollipop" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:ignore="ExtraText,UselessLeaf,UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Cual es tu objetivo"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />s
+
+        <ImageButton
+            android:id="@+id/imageButtonGrasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.03"
+            android:src="@drawable/visan1"
+            tools:ignore="ContentDescription,InefficientWeight,ObsoleteLayoutParam" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonForma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButtonGrasa"
+            android:layout_alignStart="@+id/imageButtonGrasa"
+            android:layout_below="@+id/imageButtonVaron"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/visan1"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+        <ImageButton
+            android:id="@+id/imageButtonMuscular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/visan1"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+</RelativeLayout>

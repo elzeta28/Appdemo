@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivanm\.android\build-cache\39ad7212ee154ed681bace73a887b710e1da3378\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\ivanm\Downloads\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\release\classes_e8e19c13d01169f111326ec71a91755df6aa32eb.jar" />
+    </item>
+
+</items>
